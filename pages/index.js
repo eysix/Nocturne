@@ -45,8 +45,8 @@ export default function Home() {
               Mystery and dreaminess, luxury and sophistication, elegance and romance, 
               intricately created to exceed your expectations. </p>
           </div>
-          <div className="relative mx-auto my-auto w-50 h-50 flex items-center justify-center py-20">
-            <Image src={nocturne} />
+          <div className="relative mx-auto my-auto w-50 h-50 flex items-center justify-center py-20 hover:animate-spin-slow">
+            <Image src={nocturne}/>
           </div>
         </section>
         <section>
@@ -73,7 +73,7 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-l my-10">
+            <div className="text-center shadow-2xl p-10 rounded-l my-10 hover:opacity-70">
               <Image src={tree} width={150} height={100} class="mx-auto"/>
               <h3 className="text-2xl font-semibold pt-8 pb-2 font-garamond dark:text-gray-200">Environmentally sustainable</h3>
               <p className="py-2 dark:text-gray-200">
@@ -85,7 +85,7 @@ export default function Home() {
               policies and practices, Nocturne aims to truly exceed expectations.
               </p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-l my-10">
+            <div className="text-center shadow-2xl p-10 rounded-l my-10 hover:opacity-70">
               <Image src={earth} width={150} height={100} class="mx-auto"/>
               <h3 className="text-2xl font-semibold pt-8 pb-2 font-garamond dark:text-gray-200">Equitable</h3>
               <p className="py-2 dark:text-gray-200">
@@ -98,7 +98,7 @@ export default function Home() {
               the communities that help us produce our outstanding chocolate.
               </p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-l my-10">
+            <div className="text-center shadow-2xl p-10 rounded-l my-10 hover:opacity-70">
               <Image src={script} width={150} height={100} class="mx-auto"/>
               <h3 className="text-2xl font-semibold pt-8 pb-2 font-garamond dark:text-gray-200">Traditional</h3>
               <p className="py-2 dark:text-gray-200">
@@ -136,10 +136,12 @@ export default function Home() {
           </div>
         </section>
         <section className="py-20">
-          <div className="text-4xl flex justify-center gap-16 py-2 text-gray-500">
+          <div className="text-4xl flex justify-center gap-16 py-2 text-gray-500 hover:animate-pulse">
             <BsPinterest/>
             <BsInstagram/>
-            <BsYoutube/>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">
+              <BsYoutube/>
+            </a>
           </div>
         </section>
       </main>
