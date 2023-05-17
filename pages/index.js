@@ -136,7 +136,7 @@ export default function Home() {
           </div>
         </section>
         <section className="py-20">
-          <div className="text-4xl flex justify-center gap-16 py-2 text-gray-500 hover:animate-pulse">
+          <div className="text-2xl flex justify-center gap-16 py-2 text-gray-500 hover:animate-pulse">
             <BsPinterest/>
             <BsInstagram/>
             <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">
